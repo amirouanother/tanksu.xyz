@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanksu TF2 Deathrun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="star-background"></div>
+    <div class="container">
+        <header>
+            <h1>Tanksu TF2 Deathrun</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://tanksu.xyz/" target="_blank">Forums</a></li>
+                    <li><a href="#server-status">Server Status</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="welcome">
+                <h2>Welcome to the Tanksu TF2 Deathrun Server!</h2>
+                <p>Join us for an exciting deathrun experience in Team Fortress 2. Navigate challenging maps, avoid traps, and have fun with our community.</p>
+            </section>
+
+            <section id="server-status">
+                <h3>Server Information</h3>
+                <div class="status-info">
+                    <p><strong>IP:</strong> 85.10.253.236:27056</p>
+                    <p><strong>Status:</strong> <span id="serverStatus">Loading...</span></p>
+                    <p><strong>Players:</strong> <span id="playerCount">--/--</span></p>
+                    <p><strong>Current Map:</strong> <span id="currentMap">Loading...</span></p>
+                    <p><strong>Map Duration:</strong> <span id="mapDuration">Loading...</span></p>
+                    <button onclick="window.location.href='steam://connect/85.10.253.236:27056'">Connect to Server</button>
+                </div>
+            </section>
+
+            <section id="about">
+                <h3>About Tanksu</h3>
+                <p>Tanksu is dedicated to providing a high-quality and fun TF2 Deathrun experience. Our community is friendly, and we regularly update our maps and features.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Tanksu. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
